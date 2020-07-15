@@ -22,7 +22,7 @@ function ShotChart(){
   this.court = {
     xPos: 325,
     yPos: 50,
-    filepath: "/assets/court.svg",
+    filepath: "./assets/court.svg",
     altText: "Basketball Court SVG"
   }
 

@@ -51,7 +51,7 @@ function LineGraphRace() {
   this.dataPool = [
       
     {name: "US City Population",
-    table: loadTable('/data/line-graph-race/us-city-pop.csv', 'csv', 'header'),
+    table: loadTable('./data/line-graph-race/us-city-pop.csv', 'csv', 'header'),
     active: false,
     title: "Population of Major US Cities Over Time",
     xLabel: "Year",
@@ -59,7 +59,7 @@ function LineGraphRace() {
     },
 
     {name: "Hours Per Class", 
-    table: loadTable('/data/line-graph-race/times.csv', 'csv', 'header'),
+    table: loadTable('./data/line-graph-race/times.csv', 'csv', 'header'),
     active: false,
     title: "Hours Spent on Each Class Over Time",
     xLabel: "Weeks",
@@ -67,7 +67,7 @@ function LineGraphRace() {
     },
 
     {name: "Grocery Prices, US Avg", 
-    table: loadTable('/data/line-graph-race/grocery-cost.csv', 'csv', 'header'),
+    table: loadTable('./data/line-graph-race/grocery-cost.csv', 'csv', 'header'),
     active: false,
     title: "Cost of Groceries in Average US City Over Time",
     xLabel: "Year",
@@ -80,7 +80,7 @@ function LineGraphRace() {
   this.preload = function() {
     var self = this;
     this.data = loadTable(
-      '/data/line-graph-race/us-city-pop.csv', 'csv', 'header',
+      './data/line-graph-race/us-city-pop.csv', 'csv', 'header',
       // Callback function to set the value
       // this.loaded to true.
       function(table) {
@@ -91,7 +91,7 @@ function LineGraphRace() {
   this.setup = function() {
 
     //Create Dom element for data download
-    this.dataDL = makeDataSourceEle(this.name, "/data/line-graph-race/source/line-combined.xlsx");
+    this.dataDL = makeDataSourceEle(this.name, "./data/line-graph-race/source/line-combined.xlsx");
     
     //set a random color
     this.randColor = this.getRandColor(20);

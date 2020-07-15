@@ -8,7 +8,7 @@ function USMap(){
   this.id = 'us-map';
 
   // location of data file to DL
-  this.dataLoc = '/data/us-map/housing-vs-income.csv'
+  this.dataLoc = './data/us-map/housing-vs-income.csv'
 
   //element holding svg
   this.svgContainer = document.getElementById('svg-container')
