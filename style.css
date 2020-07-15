@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif
+}
+
+.menu-item {
+    width: 250px;
+    height: 50px;
+    border: 1px solid gray;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background: lightgray
+}
+
+.selected{
+    background: gold
+}
+
+input{
+    direction: rtl;
+}
+
+/* US MAP Styling */
+#svg-container {
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    /* z-index: 1; */
+    visibility: hidden; /* Changes via us-map.js */
+}
+
+.state>path {
+    /* fill: green; */
+    opacity: .7;
+}
+
+.state>path:hover {
+    fill: rgb(65, 130, 130) !important;
+    /* fill: grey !important; */
+    fill-opacity: .9;
+}
+
+.state>path:active {
+    fill-opacity: .5;
+}
+
+/* Data Source DL styling */
+#info-container{
+    position: absolute;
+    left: 45px;
+}
