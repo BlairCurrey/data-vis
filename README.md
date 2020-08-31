@@ -1,4 +1,7 @@
 # data-vis
+
+[See the visualizations.](https://blaircurrey.github.io/data-vis/)
+
 ## Attributions
 This application is an extension of an application developed by the University of London. Some of the work is not my own. [Please see here for more details.](#more-details-on-attribution) 
 
