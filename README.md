@@ -13,4 +13,4 @@ I used [the p5js library](https://p5js.org/) for visualizations and animation, w
 - Loading animation (unused, but *arguably* neat)
 
 #### More Details on Attribution
-These data visualizations are an extension of a school project. The gallery.js and sketch.js code was written entirely but by the University of London. helper-funtions.js and index.html were provided by the University of London in the original prompted but were expanded by myself. All the visualizations and animation are my original work.
+These data visualizations are an extension of a school project. The gallery.js and sketch.js code was written entirely but by the University of London. helper-funtions.js and index.html were provided by the University of London in the original prompt but were expanded by myself. All the visualizations and animation are my original work.
