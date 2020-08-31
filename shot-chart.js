@@ -85,7 +85,6 @@ function ShotChart(){
       }
     }
 
-
     //draw legend
     this.legendDraw();
 
